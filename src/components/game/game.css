@@ -1,0 +1,11 @@
+.game-button-row {
+  margin-top: 35px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.game-status-message {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1.3em;
+}

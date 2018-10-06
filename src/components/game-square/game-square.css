@@ -1,0 +1,11 @@
+.game-square {
+  background-color: #ffffff;
+  border: 1px solid black;
+  width: 30vw;
+  height: 30vw;
+}
+
+.game-square-image {
+  height: 100%;
+  width: 100%;
+}
