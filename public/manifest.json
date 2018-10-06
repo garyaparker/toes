@@ -1,6 +1,6 @@
 {
   "name": "Parker Tick-Tack-Toe",
-  "short_name": "Tick-Tack-Toe",
+  "short_name": "Toes",
   "display": "standalone",
   "scope": "/",
   "start_url": "/",
