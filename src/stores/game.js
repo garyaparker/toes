@@ -6,7 +6,8 @@ export default class Game {
   @observable currentPlayer = 1;
   @observable move = 1;
 
-  @computed get winner() {
+  @computed
+  get winner() {
     const winConditions = [[0, 1, 2], [3, 4, 5], [6, 7, 8], [0, 3, 6], [1, 4, 7], [2, 5, 8], [0, 4, 8], [2, 4, 6]];
 
     if (!this.squares.length) return false;
@@ -22,11 +23,13 @@ export default class Game {
     return false;
   }
 
-  @computed get gameOver() {
+  @computed
+  get gameOver() {
     return this.winner || this.move === 10;
   }
 
-  @computed get draw() {
+  @computed
+  get draw() {
     return !this.winner && this.move === 10;
   }
 
